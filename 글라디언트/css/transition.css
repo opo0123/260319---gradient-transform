@@ -1,0 +1,42 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+  background-color: antiquewhite;
+  border: 1px solid #333;
+  /* transition-property: width, height;
+  transition-duration: 2s, 1s;
+  transition-timing-funtion:linear */
+  transition: all 0.5s linear;
+}
+.box:hover {
+  width: 200px;
+  height: 120px;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+.bg-tr {
+    background-color: cornflowerblue;
+    transition: all 1s ease;
+}
+.bg-tr:hover {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.bg-tr1 {
+    background-color: rgb(255, 209, 123);
+    border: 3px solid #808080;
+}
+.bg-tr1:hover {
+    background-color: rgb(255, 196, 196);
+    border-radius: 50%;
+    border: 3px solid rgb(188, 120, 197);
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg) translateX(50px);
+}
+
